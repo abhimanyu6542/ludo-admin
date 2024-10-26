@@ -32,7 +32,6 @@ import {
   setWithdrawalData,
 } from '../../../slice/withdrawal.slice';
 import { addAddMoneyData, addNewAddMoneyData } from '../../../slice/addMoney.slice';
-import addNotification from 'react-push-notification';
 
 function Navbar() {
   const battleState = (state) => state.battle;
