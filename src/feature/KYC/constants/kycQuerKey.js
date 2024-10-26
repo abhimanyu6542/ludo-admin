@@ -1,0 +1,1 @@
+export const KYC_QUERY_KEY = 'kyc_query_key'

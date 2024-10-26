@@ -1,0 +1,1 @@
+export const UTR_QUERY_KEY = 'utr_query_key'

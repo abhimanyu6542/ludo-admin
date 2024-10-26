@@ -1,0 +1,1 @@
+export const FETCH_ADD_MONEY_DATA = 'fetchAddMoneyData';
