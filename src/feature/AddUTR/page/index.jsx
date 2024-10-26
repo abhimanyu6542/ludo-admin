@@ -3,7 +3,6 @@ import axios from 'axios';
 import TableBody from '../../../components/Table/TableBody';
 import { SearchUser } from '../../Users/utils/SearchUser';
 import GenericTextCell from '../../../components/Table/GenericTextCell';
-import UtrEditCell from '../components/UtrEditCell';
 import BasicSpinner from '../../../components/Spinner/BasicSpinner';
 import UtrStatusCell from '../components/utrStatusCell';
 import { HiOutlinePlusSmall } from 'react-icons/hi2';
@@ -14,6 +13,7 @@ import { ShowToaster } from '../../../components/Toaster/Toaster';
 import { queryClient } from '../../../config/react-query';
 import { UTR_QUERY_KEY } from '../constants/utrQuerKey';
 import { useSelector } from 'react-redux';
+import UtrEditCell from '../components/UtrEditCell';
 
 const authSesionState = (state) => state.auth.session;
 const AddUTRTable = () => {
