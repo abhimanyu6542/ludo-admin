@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import { RiDeleteBin6Line } from "react-icons/ri";
 import UTRDeletModal from './UTRDeleteModal';
